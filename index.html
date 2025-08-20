@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Presbyterian Church Houston - Redirecting...</title>
+    <meta name="description" content="First Presbyterian Church Houston - Redirecting to our main website">
+    
+    <!-- Meta refresh redirect -->
+    <meta http-equiv="refresh" content="0; url=https://fpchouston.framer.website">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="First Presbyterian Church Houston">
+    <meta property="og:description" content="Welcome to First Presbyterian Church Houston">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fpchouston.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 2rem;
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .redirect-message {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+        
+        .manual-link {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            border: 2px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .manual-link:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">FPC Houston</div>
+        <div class="subtitle">First Presbyterian Church Houston</div>
+        <div class="spinner"></div>
+        <div class="redirect-message">
+            Redirecting you to our main website...
+        </div>
+        <a href="https://fpchouston.framer.website" class="manual-link">
+            Click here if you're not redirected automatically
+        </a>
+    </div>
+    
+    <script>
+        // JavaScript redirect as backup
+        setTimeout(function() {
+            window.location.href = 'https://fpchouston.framer.website';
+        }, 1000);
+    </script>
+</body>
+</html> 
