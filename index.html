@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formosan Presbyterian Church Houston | Taiwanese Church in Greater Houston | PCUSA</title>
-    <meta name="description" content="Formosan Presbyterian Church Houston - A welcoming Taiwanese church in Greater Houston. Join us for worship, fellowship, and community at 2401 S Dairy Ashford, Houston TX 77077. PCUSA affiliated.">
-    <meta name="keywords" content="Formosan Presbyterian Church, Taiwanese church, Houston, Greater Houston, PCUSA, Presbyterian, worship, fellowship, Taiwanese community, 77077, Dairy Ashford">
+    <title>Formosan Presbyterian Church Houston | 休士頓台灣長老教會 | Taiwanese Church in Greater Houston | PCUSA</title>
+    <meta name="description" content="Formosan Presbyterian Church Houston - A welcoming Taiwanese church in Greater Houston. Join us for worship, fellowship, and community at 2401 S Dairy Ashford, Houston TX 77077. PCUSA affiliated. 休士頓台灣長老教會 - 歡迎來到我們溫暖的台灣教會社區。">
+    <meta name="keywords" content="Formosan Presbyterian Church, Taiwanese church, Houston, Greater Houston, PCUSA, Presbyterian, worship, fellowship, Taiwanese community, 77077, Dairy Ashford, 台灣長老教會, 休士頓台灣教會, 德州台灣教會, 休士頓華人教會, 台灣人教會, 長老教會休士頓, 華人教會, 台灣社區, 休士頓華人">
     <meta name="author" content="Formosan Presbyterian Church Houston">
     <meta name="robots" content="index, follow">
     
@@ -13,18 +13,18 @@
     <meta http-equiv="refresh" content="0; url=https://fpchouston.framer.website">
     
     <!-- Open Graph tags -->
-    <meta property="og:title" content="Formosan Presbyterian Church Houston | Taiwanese Church in Greater Houston">
-    <meta property="og:description" content="Join our welcoming Taiwanese church community in Greater Houston. Worship, fellowship, and community at 2401 S Dairy Ashford, Houston TX 77077.">
+    <meta property="og:title" content="Formosan Presbyterian Church Houston | 休士頓台灣長老教會 | Taiwanese Church in Greater Houston">
+    <meta property="og:description" content="Join our welcoming Taiwanese church community in Greater Houston. Worship, fellowship, and community at 2401 S Dairy Ashford, Houston TX 77077. 歡迎來到我們溫暖的台灣教會社區。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fpchouston.com">
-    <meta property="og:image" content="https://fpchouston.com/pcusa-logo.png">
+    <meta property="og:image" content="https://fpchouston.com/PCUSA-LOGO.png">
     <meta property="og:site_name" content="Formosan Presbyterian Church Houston">
     
     <!-- Twitter Card tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Formosan Presbyterian Church Houston">
-    <meta name="twitter:description" content="Taiwanese church community in Greater Houston. Join us for worship and fellowship.">
-    <meta name="twitter:image" content="https://fpchouston.com/pcusa-logo.png">
+    <meta name="twitter:title" content="Formosan Presbyterian Church Houston | 休士頓台灣長老教會">
+    <meta name="twitter:description" content="Taiwanese church community in Greater Houston. Join us for worship and fellowship. 歡迎來到我們溫暖的台灣教會社區。">
+    <meta name="twitter:image" content="https://fpchouston.com/PCUSA-LOGO.png">
     
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
@@ -32,6 +32,7 @@
         "@context": "https://schema.org",
         "@type": "Church",
         "name": "Formosan Presbyterian Church Houston",
+        "alternateName": "休士頓台灣長老教會",
         "description": "A welcoming Taiwanese Presbyterian church in Greater Houston, affiliated with PCUSA",
         "url": "https://fpchouston.com",
         "address": {
@@ -57,7 +58,8 @@
         "audience": {
             "@type": "Audience",
             "audienceType": "Taiwanese Community"
-        }
+        },
+        "inLanguage": ["en", "zh-TW"]
     }
     </script>
     
@@ -66,7 +68,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
         
         * {
             margin: 0;
@@ -75,7 +77,7 @@
         }
         
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #667eea 100%);
             margin: 0;
             padding: 0;
@@ -89,112 +91,166 @@
         
         .container {
             text-align: center;
-            max-width: 700px;
+            max-width: 800px;
             padding: 3rem 2rem;
             background: rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            backdrop-filter: blur(25px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-        }
-        
-        .logo-container {
-            margin-bottom: 2rem;
-        }
-        
-        .pcusa-logo {
-            width: 120px;
-            height: 120px;
-            background: #fff;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
             position: relative;
             overflow: hidden;
         }
         
-        .pcusa-logo::before {
-            content: "PCUSA";
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #1e3c72;
-            letter-spacing: 1px;
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+            animation: rainbow 3s ease-in-out infinite;
         }
         
-        .pcusa-logo::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(45deg, #1e3c72, #667eea);
-            border-radius: 50%;
-            z-index: -1;
+        @keyframes rainbow {
+            0%, 100% { transform: translateX(-100%); }
+            50% { transform: translateX(100%); }
+        }
+        
+        .logo-container {
+            margin-bottom: 2.5rem;
+            position: relative;
+        }
+        
+        .pcusa-logo {
+            width: 140px;
+            height: 140px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.3));
+            transition: all 0.4s ease;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .pcusa-logo:hover {
+            transform: scale(1.1) rotate(2deg);
+            filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.4));
         }
         
         .church-name {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            background: linear-gradient(45deg, #fff, #e0e7ff);
+            background: linear-gradient(45deg, #fff, #e0e7ff, #c7d2fe);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            letter-spacing: -0.5px;
         }
         
         .church-subtitle {
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            opacity: 0.9;
-            font-weight: 400;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+            font-weight: 500;
+            color: #e0e7ff;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
         
         .church-details {
-            font-size: 1rem;
-            margin-bottom: 2rem;
-            opacity: 0.8;
-            line-height: 1.6;
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            line-height: 1.7;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         .address {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 1rem;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.15);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-bottom: 2.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .address::before {
+            content: '📍';
+            font-size: 1.5rem;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            opacity: 0.7;
         }
         
         .address strong {
             color: #e0e7ff;
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .address-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        .redirect-section {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 2rem;
+        }
+        
+        .spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            border-top: 4px solid #e0e7ff;
+            border-radius: 50%;
+            animation: spin 1.2s linear infinite;
+            margin: 0 auto 1.5rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
         
         .redirect-message {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             margin-bottom: 2rem;
-            opacity: 0.9;
+            opacity: 0.95;
             font-weight: 500;
+            color: #e0e7ff;
         }
         
         .manual-link {
             display: inline-block;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #667eea, #764ba2, #f093fb);
             color: white;
             text-decoration: none;
-            padding: 15px 30px;
+            padding: 18px 36px;
             border-radius: 50px;
             border: none;
             font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            font-size: 1.1rem;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
             position: relative;
             overflow: hidden;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
         }
         
         .manual-link::before {
@@ -204,8 +260,8 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            transition: left 0.5s;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.6s;
         }
         
         .manual-link:hover::before {
@@ -213,23 +269,8 @@
         }
         
         .manual-link:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
-        }
-        
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid rgba(255, 255, 255, 0.3);
-            border-top: 4px solid #e0e7ff;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1.5rem;
-        }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
         }
         
         .seo-text {
@@ -240,77 +281,134 @@
             overflow: hidden;
         }
         
+        .language-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
         @media (max-width: 768px) {
             .container {
                 margin: 1rem;
-                padding: 2rem 1rem;
+                padding: 2rem 1.5rem;
+                border-radius: 20px;
             }
             
             .church-name {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
             
             .church-subtitle {
-                font-size: 1.1rem;
+                font-size: 1.3rem;
             }
             
             .pcusa-logo {
-                width: 100px;
-                height: 100px;
+                width: 120px;
+                height: 120px;
+            }
+            
+            .address {
+                padding: 1.2rem;
+            }
+            
+            .language-badge {
+                top: 15px;
+                right: 15px;
+                font-size: 0.8rem;
+                padding: 6px 12px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="language-badge">🇹🇼 台灣教會</div>
+        
         <div class="logo-container">
-            <div class="pcusa-logo"></div>
+            <img src="PCUSA-LOGO.png" alt="PCUSA Logo - Presbyterian Church USA" class="pcusa-logo">
         </div>
         
         <div class="church-name">Formosan Presbyterian Church</div>
-        <div class="church-subtitle">Houston, Texas</div>
+        <div class="church-subtitle">休士頓台灣長老教會 | Houston, Texas</div>
         <div class="church-details">
-            A welcoming Taiwanese church community in Greater Houston, affiliated with the Presbyterian Church (USA)
+            A welcoming Taiwanese church community in Greater Houston, affiliated with the Presbyterian Church (USA). 
+            We serve the Taiwanese community with worship, fellowship, and community programs.
         </div>
         
         <div class="address">
-            <strong>📍 Address:</strong><br>
-            2401 S Dairy Ashford<br>
-            Houston, TX 77077
+            <strong>Church Address</strong>
+            <div class="address-text">
+                2401 S Dairy Ashford<br>
+                Houston, TX 77077
+            </div>
         </div>
         
-        <div class="spinner"></div>
-        <div class="redirect-message">
-            Redirecting you to our main website...
+        <div class="redirect-section">
+            <div class="spinner"></div>
+            <div class="redirect-message">
+                Redirecting you to our main website...
+            </div>
+            
+            <a href="https://fpchouston.framer.website" class="manual-link">
+                Visit Our Full Website
+            </a>
         </div>
-        
-        <a href="https://fpchouston.framer.website" class="manual-link">
-            Visit Our Full Website
-        </a>
     </div>
     
     <!-- Hidden SEO text for search engines -->
     <div class="seo-text">
-        Formosan Presbyterian Church Houston Taiwanese church Greater Houston PCUSA Presbyterian worship fellowship community 77077 Dairy Ashford Taiwanese people Taiwan Houston Texas church services Sunday worship Bible study prayer group Taiwanese community Houston area
+        Formosan Presbyterian Church Houston Taiwanese church Greater Houston PCUSA Presbyterian worship fellowship community 77077 Dairy Ashford Taiwanese people Taiwan Houston Texas church services Sunday worship Bible study prayer group Taiwanese community Houston area 台灣長老教會 休士頓台灣教會 德州台灣教會 休士頓華人教會 台灣人教會 長老教會休士頓 華人教會 台灣社區 休士頓華人 長老教會 基督教會 休士頓教會 德州教會 美國台灣教會
     </div>
     
     <script>
         // JavaScript redirect as backup
         setTimeout(function() {
             window.location.href = 'https://fpchouston.framer.website';
-        }, 2000);
+        }, 3000);
         
-        // Add some interactive effects
+        // Enhanced interactive effects
         document.addEventListener('DOMContentLoaded', function() {
             const container = document.querySelector('.container');
+            const logo = document.querySelector('.pcusa-logo');
+            
+            // Initial animation
             container.style.opacity = '0';
-            container.style.transform = 'translateY(20px)';
+            container.style.transform = 'translateY(30px) scale(0.95)';
             
             setTimeout(function() {
-                container.style.transition = 'all 0.8s ease';
+                container.style.transition = 'all 1s cubic-bezier(0.4, 0, 0.2, 1)';
                 container.style.opacity = '1';
-                container.style.transform = 'translateY(0)';
-            }, 100);
+                container.style.transform = 'translateY(0) scale(1)';
+            }, 200);
+            
+            // Logo hover effect
+            logo.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.1) rotate(2deg)';
+            });
+            
+            logo.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1) rotate(0deg)';
+            });
+            
+            // Add some subtle animations
+            const elements = document.querySelectorAll('.church-name, .church-subtitle, .church-details, .address');
+            elements.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    el.style.transition = 'all 0.8s ease';
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, 800 + (index * 200));
+            });
         });
     </script>
 </body>
